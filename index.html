@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='style.css' rel='stylesheet'>
+
+<title>Analyses Medicales</title>  
+<div class="wrapper">
+    <div class="profile-card js-profile-card">
+       <div class="profile-card__img">
+        <a href="index.html"><img src="LOGO2.jpg" alt="profile card"></a>
+       </div> 
+        <div class="profile-card__cnt js-profile-cnt">
+          <div class="profile-card__name">Pharmacie ELOMARI</div>
+          <div class="profile-card__txt">Analyses Medicales</div>
+          <div class="profile-card-loc">Gestions des Prélèvements</div><br>
+          <button class="profile-card__button button--blue js-message-btn" onclick="redirectTofiche()">Fiche Prélèvements</button>
+          <button class="profile-card__button button--orange" onclick="redirectToPreleve()">Nouveau Prélèvement</button>
+        </div>
+          <div class="profile-card__cnt js-profile-cnt">
+            <button class="profile-card__button button--green" onclick="redirectToAnalyses()">Liste Analyses</button>
+          </div> 
+    </div>
+  </div>
+
+  <script>
+    function redirectToPreleve() {
+    window.location.href = 'Prelevement.html';
+}
+function redirectTofiche() {
+    window.location.href = 'Fiche.html';
+}
+function redirectToAnalyses() {
+    window.location.href = 'Analyses.html';
+}
+  </script>
+
+
+
+</html>

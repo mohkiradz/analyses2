@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Printable Results</title>
+<style>
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+</style>
+</head>
+<body>
+  <div id="print-content">
+    <!-- Patient Information -->
+    <h2>Patient Information</h2>
+    <p><strong>Name:</strong> <span id="patient-name"></span></p>
+    <p><strong>Date of Birth:</strong> <span id="dob"></span></p>
+    <p><strong>Age:</strong> <span id="age"></span></p>
+    
+    <!-- Labo Information -->
+    <h2>Total Labo</h2>
+    <p><strong>Total Labo:</strong> <span id="total-labo"></span></p>
+    
+    <!-- Selected Options -->
+    <h2>Selected Options</h2>
+    <ul id="selected-options"></ul>
+  </div>
+
+  <!-- JavaScript to populate data -->
+  <script>
+    // Populate patient information
+    document.getElementById("patient-name").innerText = "${result.nom} ${result.prenom}";
+    document.getElementById("dob").innerText = "${formattedDob}";
+    document.getElementById("age").innerText = "(${age} Ans)";
+
+    // Populate labo information
+    document.getElementById("total-labo").innerText = "${result.total_labo}";
+
+    // Populate selected options
+    var selectedOptions = ${JSON.stringify(selectedOptions)};
+    var selectedOptionsList = document.getElementById("selected-options");
+    selectedOptions.forEach(function(option) {
+      var li = document.createElement("li");
+      li.innerText = `Analyses ID: ${option.analyses_id}, Designation: ${option.designation}, Prix Labo: ${option.prix_labo}, Prix Pharm: ${option.prix_pharm}`;
+      selectedOptionsList.appendChild(li);
+    });
+  </script>
+</body>
+</html>

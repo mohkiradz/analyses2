@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analyse Medicale Data</title>
+<style>
+  /* Your CSS styles */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:hover {
+    background-color: #ddd;
+  }
+  .editable {
+    background-color: #f9f9f9;
+  }
+</style>
+</head>
+<body>
+  <h1>Analyse Medicale Data</h1>
+  
+  <div id="tableContainer"></div>
+  <button id="saveChangesBtn">Save Changes</button>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      let tableData = []; // Array to store table data for submission
+
+      // Function to make table cells editable
+      function makeCellsEditable() {
+        const cells = document.querySelectorAll('#analyseTable td.prix_pharm');
+        cells.forEach(cell => {
+          cell.contentEditable = true;
+          cell.classList.add('editable');
+        });
+      }
+
+      // Function to fetch and display data in a table
+      function fetchAndDisplayData() {
+        fetch('/get-analysemedicale')
+          .then(response => response.json())
+          .then(data => {
+            const table = generateTable(data);
+            document.getElementById('tableContainer').innerHTML = table;
+          })
+          .catch(error => {
+            console.error('Error:', error);
+            document.getElementById('tableContainer').textContent = 'An error occurred while fetching data. Please try again.';
+          });
+      }
+
+      // Function to generate HTML table from data
+      function generateTable(data) {
+        let htmlTable = '<table id="analyseTable"><tr><th>ID</th><th>Designation</th><th>Abreviation</th><th>Type Tube</th><th>Prix Labo</th><th class="prix_pharm">Prix Pharm</th></tr>';
+        data.forEach(row => {
+          htmlTable += `<tr><td>${row.id}</td><td>${row.designation}</td><td>${row.abreviation}</td><td>${row.type_tube}</td><td>${row.prix_labo}</td><td class="prix_pharm" contenteditable="true">${row.prix_pharm}</td></tr>`;
+          tableData.push({
+            id: row.id,
+            designation: row.designation,
+            abreviation: row.abreviation,
+            type_tube: row.type_tube,
+            prix_labo: row.prix_labo,
+            prix_pharm: row.prix_pharm
+          });
+        });
+        htmlTable += '</table>';
+        return htmlTable;
+      }
+
+
+// Function to submit changes to the database
+function submitChanges() {
+  console.log('Submitting changes...');
+  console.log('tableData:', tableData); // Log the tableData array before sending it
+  
+  fetch('/update-analysemedicale', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(tableData)
+  })
+  .then(response => response.json())
+  .then(result => {
+    console.log(result.message);
+    fetchAndDisplayData(); // Refresh the table after successful submission
+  })
+  .catch(error => {
+    console.error('Error:', error);
+    alert('An error occurred while submitting changes. Please try again.');
+  });
+}
+
+      // Event listener for the Save Changes button
+      document.getElementById('saveChangesBtn').addEventListener('click', submitChanges);
+
+      // Fetch and display data on page load
+      fetchAndDisplayData();
+
+      // Make cells editable on table click
+      document.addEventListener('click', function(event) {
+        if (event.target.tagName === 'TD') {
+          makeCellsEditable();
+        }
+      });
+    });
+  </script>
+</body>
+</html>

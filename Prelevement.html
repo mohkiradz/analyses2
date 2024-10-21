@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Prélèvement</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="js/e5568eb36a.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/pdf-lib@^1.16.0/dist/pdf-lib.min.js"></script>
+
+<!-- Style CSS -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="./css/demo.css">
+<link rel='stylesheet' href='style2.css'> 
+
+<script>
+  function validateForm() {
+      var name = document.getElementById("name").value.trim();
+      var lastName = document.getElementById("lastName").value.trim();
+      var dob = document.getElementById("dob").value.trim();
+      var num = document.getElementById("num").value;
+      var selectedOptions = [];
+  
+      // Get all selected checkboxes
+      var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+      checkboxes.forEach(function(checkbox) {
+          selectedOptions.push(checkbox.value);
+      });
+  
+      if (name === "") {
+          alert("Please enter your name");
+          return false;
+      }
+      if (lastName === "") {
+          alert("Please enter your last name");
+          return false;
+      }
+      if (dob === "") {
+          alert("Please enter your date of birth");
+          return false;
+      }
+      
+  
+  
+      return true;
+  }
+  
+  </script>
+  <style>
+      .selected {
+          display: none;
+      }
+  </style>
+
+<div class="wrapper">
+  
+    <div class="profile-card js-profile-card">      
+      <div class="profile-card__img">
+        <a href="index.html"><img src="LOGO2.jpg" alt="profile card"></a>       
+      </div>
+      <div class="profile-card__cnt js-profile-cnt">
+        <div class="profile-card__name">Nouveau Prélèvement</div>        
+        </div>  
+          <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                        <form id="myForm" onsubmit="validateForm()" method="POST">
+                          <div class="col-6 mx-auto">
+                            <div class="input-group">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Date de Prélèvement</span>
+                                <input type="text" class="form-control" id="pre" name="today" required readonly>
+                            </div>   
+                          </div>
+
+
+                          <div class="col d-flex flex-nowrap mt-3">
+                          <div class="input-group mb-3 me-3">
+                            <span class="input-group-text">Nom:</span>
+                            <input type="text" class="form-control" id="name" 
+                            name="name" oninput="this.value = this.value.toUpperCase()" required>
+                          </div>
+                          <div class="input-group mb-3">
+                            <span class="input-group-text">Prénom:</span>
+                            <input type="text" class="form-control" id="lastName"               
+                            name="lastName" oninput="this.value = this.value.toUpperCase()" required>
+                          </div>
+                          </div>
+
+                          <div class="col d-flex flex-nowrap mt-3">                            
+                            <div class="input-group mb-3 me-3">
+                              <span class="input-group-text">Date Naissance:</span>
+                              <input type="date" class="form-control" id="dob" name="dob" required>
+                            </div>
+                            <div class="input-group mb-3 ">
+                              <span class="input-group-text">Téléphone:</span>
+                              <input type="tel" class="form-control" id="num" name="num" placeholder="0660-00-00-00" pattern="[0-9]{4}[0-9]{2}[0-9]{2}[0-9]{2}">
+                            </div>
+                            </div>
+   
+                        <div>
+                            <label for="searchInput" class="form-label">Analyses:</label>
+                            <input type="text" class="form-control" autocomplete="off" id="searchInput" placeholder="Rechercher...">
+                        </div>                
+        
+                        <div class="mt-3 mb-3" id="optionsContainer">
+                            <label for="options" class="form-label">Liste des analyses:</label>
+                            <!-- Manually added options will be displayed here -->
+                        </div>
+                    </div>
+                    <div>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Designation</th>
+                                    <th>Tube</th>
+                                    <th>Labo</th>
+                                    <th>Pharm</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="selectedOptionsTable">
+                                <tr>
+                                   
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                       
+                    <div class="text-center">
+                        <button type="submit" id="submit" class="profile-card__button button--green js-message-btn">Valider</button>
+                      </div>
+        
+        
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+
+
+
+ 
+        <div class="modal fade" id="statusSuccessModal" tabindex="-1" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false"> 
+          <div class="modal-dialog modal-dialog-centered modal-sm" role="document"> 
+            <div class="modal-content"> 
+              <div class="modal-body text-center p-lg-4"> 
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+                  <circle class="path circle" fill="none" stroke="#198754" stroke-width="6" stroke-miterlimit="10" cx="65.1" cy="65.1" r="62.1" />
+                  <polyline class="path check" fill="none" stroke="#198754" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" points="100.2,40.2 51.5,88.8 29.8,67.5 " /> 
+                </svg> 
+                <h4 class="text-success mt-3"></h4> 
+                <p class="mt-3">Prélèvement Ajouter Avec Succès</p>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal" onclick="redirectToIndex()">Ok</button>
+
+              </div> 
+            </div> 
+          </div> 
+        </div>
+
+        
+        
+        <div class="profile-card-ctr">
+          
+        </div>
+      </div>
+  </div>
+
+
+
+
+
+<!-- Bootstrap Modal for Success Message -->
+ 
+			 
+
+
+		
+
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var today = new Date();
+        var day = String(today.getDate()).padStart(2, '0');
+        var month = String(today.getMonth() + 1).padStart(2, '0'); // January is 0!
+        var year = today.getFullYear();
+        var formattedDate = day + '/' + month + '/' + year;
+        document.getElementById("pre").value = formattedDate;
+    });
+</script>
+<script src="form.js"></script>
+<script src="select.js"></script>
+<script src="print.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,758 @@
+2024-03-23 11:50:55 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-03-23 11:50:56 - Started 2480
+2024-03-23 11:51:23 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-03-23 11:51:23 - Started 7968
+2024-03-23 11:52:08 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-03-23 11:52:08 - Started 3568
+2024-03-23 23:50:46 - Stopping analysesapp.exe
+2024-03-23 23:50:46 - ProcessKill 3568
+2024-03-23 23:50:47 - Found child process: 3580 Name: conhost.exe
+2024-03-23 23:50:47 - Found child process: 4168 Name: node.exe
+2024-03-23 23:50:47 - Stopping process 3580
+2024-03-23 23:50:47 - Send SIGINT 3580
+2024-03-23 23:50:47 - SIGINT to 3580 failed - Killing as fallback
+2024-03-23 23:50:47 - Stopping process 4168
+2024-03-23 23:50:47 - Send SIGINT 4168
+2024-03-23 23:50:47 - SIGINT to 4168 failed - Killing as fallback
+2024-03-23 23:50:47 - Stopping process 3568
+2024-03-23 23:50:47 - Send SIGINT 3568
+2024-03-23 23:50:47 - SIGINT to 3568 failed - Killing as fallback
+2024-03-23 23:50:47 - Finished analysesapp.exe
+2024-03-23 23:50:50 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-03-23 23:50:50 - Started 4588
+2024-03-23 23:50:54 - Stopping analysesapp.exe
+2024-03-23 23:50:54 - ProcessKill 4588
+2024-03-23 23:50:54 - Found child process: 7048 Name: conhost.exe
+2024-03-23 23:50:54 - Found child process: 4528 Name: node.exe
+2024-03-23 23:50:54 - Stopping process 7048
+2024-03-23 23:50:54 - Send SIGINT 7048
+2024-03-23 23:50:54 - SIGINT to 7048 failed - Killing as fallback
+2024-03-23 23:50:54 - Stopping process 4528
+2024-03-23 23:50:54 - Send SIGINT 4528
+2024-03-23 23:50:54 - SIGINT to 4528 failed - Killing as fallback
+2024-03-23 23:50:54 - Stopping process 4588
+2024-03-23 23:50:54 - Send SIGINT 4588
+2024-03-23 23:50:54 - SIGINT to 4588 failed - Killing as fallback
+2024-03-23 23:50:54 - Finished analysesapp.exe
+2024-03-24 00:16:19 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-03-24 00:16:19 - Started 4452
+2024-03-24 00:38:16 - Stopping analysesapp.exe
+2024-03-24 00:38:16 - ProcessKill 4452
+2024-03-24 00:38:16 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-03-24 16:31:13 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-03-24 16:31:13 - Started 3836
+2024-03-24 16:52:26 - Stopping analysesapp.exe
+2024-03-24 16:52:26 - ProcessKill 3836
+2024-03-24 16:52:26 - Found child process: 3860 Name: conhost.exe
+2024-03-24 16:52:26 - Found child process: 4776 Name: node.exe
+2024-03-24 16:52:26 - Stopping process 3860
+2024-03-24 16:52:26 - Send SIGINT 3860
+2024-03-24 16:52:26 - SIGINT to 3860 failed - Killing as fallback
+2024-03-24 16:52:26 - Stopping process 4776
+2024-03-24 16:52:26 - Send SIGINT 4776
+2024-03-24 16:52:26 - SIGINT to 4776 failed - Killing as fallback
+2024-03-24 16:52:26 - Stopping process 3836
+2024-03-24 16:52:26 - Send SIGINT 3836
+2024-03-24 16:52:26 - SIGINT to 3836 failed - Killing as fallback
+2024-03-24 16:52:26 - Finished analysesapp.exe
+2024-03-24 16:52:29 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-03-24 16:52:29 - Started 4784
+2024-03-24 16:55:00 - Stopping analysesapp.exe
+2024-03-24 16:55:00 - ProcessKill 4784
+2024-03-24 16:55:00 - Found child process: 7944 Name: conhost.exe
+2024-03-24 16:55:00 - Found child process: 6772 Name: node.exe
+2024-03-24 16:55:00 - Stopping process 7944
+2024-03-24 16:55:00 - Send SIGINT 7944
+2024-03-24 16:55:00 - SIGINT to 7944 failed - Killing as fallback
+2024-03-24 16:55:00 - Stopping process 6772
+2024-03-24 16:55:00 - Send SIGINT 6772
+2024-03-24 16:55:00 - SIGINT to 6772 failed - Killing as fallback
+2024-03-24 16:55:00 - Stopping process 4784
+2024-03-24 16:55:00 - Send SIGINT 4784
+2024-03-24 16:55:00 - SIGINT to 4784 failed - Killing as fallback
+2024-03-24 16:55:00 - Finished analysesapp.exe
+2024-03-24 16:55:02 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-03-24 16:55:02 - Started 4900
+2024-03-24 18:08:06 - Stopping analysesapp.exe
+2024-03-24 18:08:06 - ProcessKill 4900
+2024-03-24 18:08:06 - Found child process: 4284 Name: conhost.exe
+2024-03-24 18:08:06 - Found child process: 2772 Name: node.exe
+2024-03-24 18:08:06 - Stopping process 4284
+2024-03-24 18:08:06 - Send SIGINT 4284
+2024-03-24 18:08:06 - SIGINT to 4284 failed - Killing as fallback
+2024-03-24 18:08:06 - Stopping process 2772
+2024-03-24 18:08:06 - Send SIGINT 2772
+2024-03-24 18:08:06 - SIGINT to 2772 failed - Killing as fallback
+2024-03-24 18:08:06 - Stopping process 4900
+2024-03-24 18:08:06 - Send SIGINT 4900
+2024-03-24 18:08:06 - SIGINT to 4900 failed - Killing as fallback
+2024-03-24 18:08:06 - Finished analysesapp.exe
+2024-03-24 18:08:08 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-03-24 18:08:08 - Started 8288
+2024-03-25 00:24:43 - Stopping analysesapp.exe
+2024-03-25 00:24:43 - ProcessKill 8288
+2024-03-25 00:24:43 - Found child process: 6032 Name: conhost.exe
+2024-03-25 00:24:43 - Found child process: 9128 Name: node.exe
+2024-03-25 00:24:43 - Stopping process 6032
+2024-03-25 00:24:43 - Send SIGINT 6032
+2024-03-25 00:24:43 - SIGINT to 6032 failed - Killing as fallback
+2024-03-25 00:24:43 - Stopping process 9128
+2024-03-25 00:24:43 - Send SIGINT 9128
+2024-03-25 00:24:43 - SIGINT to 9128 failed - Killing as fallback
+2024-03-25 00:24:43 - Stopping process 8288
+2024-03-25 00:24:43 - Send SIGINT 8288
+2024-03-25 00:24:43 - SIGINT to 8288 failed - Killing as fallback
+2024-03-25 00:24:43 - Finished analysesapp.exe
+2024-03-25 00:24:46 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-03-25 00:24:46 - Started 9588
+2024-03-25 00:44:59 - Stopping analysesapp.exe
+2024-03-25 00:44:59 - ProcessKill 9588
+2024-03-25 00:44:59 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-03-25 02:55:53 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-03-25 02:55:53 - Started 3800
+2024-03-25 05:55:53 - Stopping analysesapp.exe
+2024-03-25 05:55:53 - ProcessKill 3800
+2024-03-25 05:55:53 - Found child process: 3832 Name: conhost.exe
+2024-03-25 05:55:53 - Found child process: 4584 Name: node.exe
+2024-03-25 05:55:53 - Stopping process 3832
+2024-03-25 05:55:53 - Send SIGINT 3832
+2024-03-25 05:55:53 - SIGINT to 3832 failed - Killing as fallback
+2024-03-25 05:55:53 - Stopping process 4584
+2024-03-25 05:55:53 - Send SIGINT 4584
+2024-03-25 05:55:53 - SIGINT to 4584 failed - Killing as fallback
+2024-03-25 05:55:53 - Stopping process 3800
+2024-03-25 05:55:53 - Send SIGINT 3800
+2024-03-25 05:55:53 - SIGINT to 3800 failed - Killing as fallback
+2024-03-25 05:55:53 - Finished analysesapp.exe
+2024-03-25 05:55:56 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-03-25 05:55:56 - Started 2028
+2024-03-25 06:04:31 - Stopping analysesapp.exe
+2024-03-25 06:04:31 - ProcessKill 2028
+2024-03-25 06:04:32 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-03-25 12:03:21 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-03-25 12:03:21 - Started 3592
+2024-03-25 16:35:22 - Stopping analysesapp.exe
+2024-03-25 16:35:22 - ProcessKill 3592
+2024-03-25 16:35:22 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-04-02 16:38:00 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-04-02 16:38:00 - Started 3928
+2024-04-02 23:51:03 - Stopping analysesapp.exe
+2024-04-02 23:51:03 - ProcessKill 3928
+2024-04-02 23:51:03 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-04-02 23:51:26 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-04-02 23:51:26 - Started 3612
+2024-04-02 23:51:38 - Stopping analysesapp.exe
+2024-04-02 23:51:38 - ProcessKill 3612
+2024-04-02 23:51:38 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-04-03 08:39:40 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-04-03 08:39:40 - Started 3892
+2024-04-09 18:02:03 - Stopping analysesapp.exe
+2024-04-09 18:02:03 - ProcessKill 3892
+2024-04-09 18:02:04 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-04-13 08:31:14 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-04-13 08:31:14 - Started 3516
+2024-04-14 10:54:17 - Stopping analysesapp.exe
+2024-04-14 10:54:17 - ProcessKill 3516
+2024-04-14 10:54:17 - Found child process: 4100 Name: conhost.exe
+2024-04-14 10:54:17 - Found child process: 5040 Name: node.exe
+2024-04-14 10:54:17 - Stopping process 4100
+2024-04-14 10:54:17 - Send SIGINT 4100
+2024-04-14 10:54:17 - SIGINT to 4100 failed - Killing as fallback
+2024-04-14 10:54:17 - Stopping process 5040
+2024-04-14 10:54:17 - Send SIGINT 5040
+2024-04-14 10:54:17 - SIGINT to 5040 failed - Killing as fallback
+2024-04-14 10:54:17 - Stopping process 3516
+2024-04-14 10:54:17 - Send SIGINT 3516
+2024-04-14 10:54:17 - SIGINT to 3516 failed - Killing as fallback
+2024-04-14 10:54:17 - Finished analysesapp.exe
+2024-04-14 11:12:12 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-04-14 11:12:12 - Started 10136
+2024-04-14 11:25:57 - Stopping analysesapp.exe
+2024-04-14 11:25:57 - ProcessKill 10136
+2024-04-14 11:25:57 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-04-14 11:26:23 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-04-14 11:26:23 - Started 3692
+2024-04-14 13:04:22 - Stopping analysesapp.exe
+2024-04-14 13:04:22 - ProcessKill 3692
+2024-04-14 13:04:22 - Found child process: 3712 Name: conhost.exe
+2024-04-14 13:04:22 - Found child process: 3956 Name: node.exe
+2024-04-14 13:04:22 - Stopping process 3712
+2024-04-14 13:04:22 - Send SIGINT 3712
+2024-04-14 13:04:22 - SIGINT to 3712 failed - Killing as fallback
+2024-04-14 13:04:22 - Stopping process 3956
+2024-04-14 13:04:22 - Send SIGINT 3956
+2024-04-14 13:04:22 - SIGINT to 3956 failed - Killing as fallback
+2024-04-14 13:04:22 - Stopping process 3692
+2024-04-14 13:04:22 - Send SIGINT 3692
+2024-04-14 13:04:22 - SIGINT to 3692 failed - Killing as fallback
+2024-04-14 13:04:22 - Finished analysesapp.exe
+2024-04-14 13:04:25 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-04-14 13:04:25 - Started 4784
+2024-04-23 12:28:33 - Stopping analysesapp.exe
+2024-04-23 12:28:33 - ProcessKill 4784
+2024-04-23 12:28:33 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-04-23 12:29:01 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-04-23 12:29:01 - Started 4032
+2024-05-02 21:36:12 - Stopping analysesapp.exe
+2024-05-02 21:36:12 - ProcessKill 4032
+2024-05-02 21:36:12 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-05-02 21:36:39 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-02 21:36:39 - Started 4212
+2024-05-04 14:51:24 - Stopping analysesapp.exe
+2024-05-04 14:51:24 - ProcessKill 4212
+2024-05-04 14:51:25 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-05-04 14:51:49 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-04 14:51:49 - Started 4160
+2024-05-09 00:33:02 - Stopping analysesapp.exe
+2024-05-09 00:33:02 - ProcessKill 4160
+2024-05-09 00:33:03 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-05-09 10:54:50 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-09 10:54:50 - Started 3964
+2024-05-10 14:21:23 - Stopping analysesapp.exe
+2024-05-10 14:21:23 - ProcessKill 3964
+2024-05-10 14:21:23 - Found child process: 4016 Name: conhost.exe
+2024-05-10 14:21:23 - Found child process: 4380 Name: node.exe
+2024-05-10 14:21:23 - Stopping process 4016
+2024-05-10 14:21:23 - Send SIGINT 4016
+2024-05-10 14:21:23 - SIGINT to 4016 failed - Killing as fallback
+2024-05-10 14:21:23 - Stopping process 4380
+2024-05-10 14:21:23 - Send SIGINT 4380
+2024-05-10 14:21:23 - SIGINT to 4380 failed - Killing as fallback
+2024-05-10 14:21:23 - Stopping process 3964
+2024-05-10 14:21:23 - Send SIGINT 3964
+2024-05-10 14:21:23 - SIGINT to 3964 failed - Killing as fallback
+2024-05-10 14:21:23 - Finished analysesapp.exe
+2024-05-10 14:21:25 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-10 14:21:25 - Started 3516
+2024-05-11 20:42:00 - Stopping analysesapp.exe
+2024-05-11 20:42:00 - ProcessKill 3516
+2024-05-11 20:42:01 - Found child process: 7384 Name: conhost.exe
+2024-05-11 20:42:01 - Found child process: 6712 Name: node.exe
+2024-05-11 20:42:01 - Stopping process 7384
+2024-05-11 20:42:01 - Send SIGINT 7384
+2024-05-11 20:42:01 - SIGINT to 7384 failed - Killing as fallback
+2024-05-11 20:42:01 - Stopping process 6712
+2024-05-11 20:42:01 - Send SIGINT 6712
+2024-05-11 20:42:01 - SIGINT to 6712 failed - Killing as fallback
+2024-05-11 20:42:01 - Stopping process 3516
+2024-05-11 20:42:01 - Send SIGINT 3516
+2024-05-11 20:42:01 - SIGINT to 3516 failed - Killing as fallback
+2024-05-11 20:42:01 - Finished analysesapp.exe
+2024-05-11 20:42:03 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-11 20:42:03 - Started 4468
+2024-05-15 18:20:07 - Stopping analysesapp.exe
+2024-05-15 18:20:07 - ProcessKill 4468
+2024-05-15 18:20:07 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-05-15 18:20:34 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-15 18:20:34 - Started 3772
+2024-05-17 11:02:01 - Stopping analysesapp.exe
+2024-05-17 11:02:01 - ProcessKill 3772
+2024-05-17 11:02:01 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-05-17 11:02:25 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-17 11:02:25 - Started 3968
+2024-05-18 12:34:55 - Stopping analysesapp.exe
+2024-05-18 12:34:55 - ProcessKill 3968
+2024-05-18 12:34:55 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-05-18 12:35:19 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-18 12:35:20 - Started 4252
+2024-05-24 11:41:33 - Stopping analysesapp.exe
+2024-05-24 11:41:33 - ProcessKill 4252
+2024-05-24 11:41:33 - Found child process: 4300 Name: conhost.exe
+2024-05-24 11:41:33 - Found child process: 5144 Name: node.exe
+2024-05-24 11:41:33 - Stopping process 4300
+2024-05-24 11:41:33 - Send SIGINT 4300
+2024-05-24 11:41:33 - SIGINT to 4300 failed - Killing as fallback
+2024-05-24 11:41:33 - Stopping process 5144
+2024-05-24 11:41:33 - Send SIGINT 5144
+2024-05-24 11:41:33 - SIGINT to 5144 failed - Killing as fallback
+2024-05-24 11:41:33 - Stopping process 4252
+2024-05-24 11:41:33 - Send SIGINT 4252
+2024-05-24 11:41:33 - SIGINT to 4252 failed - Killing as fallback
+2024-05-24 11:41:33 - Finished analysesapp.exe
+2024-05-24 12:13:42 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-24 12:13:42 - Started 7864
+2024-05-25 14:06:32 - Stopping analysesapp.exe
+2024-05-25 14:06:32 - ProcessKill 7864
+2024-05-25 14:06:32 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-05-25 14:07:01 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-05-25 14:07:01 - Started 4516
+2024-06-11 21:53:55 - Stopping analysesapp.exe
+2024-06-11 21:53:55 - ProcessKill 4516
+2024-06-11 21:53:55 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-06-11 21:54:23 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-11 21:54:23 - Started 4080
+2024-06-23 02:51:08 - Stopping analysesapp.exe
+2024-06-23 02:51:08 - ProcessKill 4080
+2024-06-23 02:51:08 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-06-23 09:40:42 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-06-23 09:40:42 - Started 4072
+2024-07-12 21:10:28 - Stopping analysesapp.exe
+2024-07-12 21:10:28 - ProcessKill 4072
+2024-07-12 21:10:28 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-07-12 21:11:03 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-12 21:11:04 - Started 4948
+2024-07-15 09:54:46 - Stopping analysesapp.exe
+2024-07-15 09:54:46 - ProcessKill 4948
+2024-07-15 09:54:47 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-07-15 09:55:09 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-07-15 09:55:09 - Started 4464
+2024-08-06 09:34:14 - Stopping analysesapp.exe
+2024-08-06 09:34:14 - ProcessKill 4464
+2024-08-06 09:34:14 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-08-06 09:34:42 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-06 09:34:42 - Started 4316
+2024-08-14 03:09:21 - Stopping analysesapp.exe
+2024-08-14 03:09:21 - ProcessKill 4316
+2024-08-14 03:09:21 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-08-14 03:09:53 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-14 03:09:54 - Started 5004
+2024-08-14 10:42:28 - Stopping analysesapp.exe
+2024-08-14 10:42:28 - ProcessKill 5004
+2024-08-14 10:42:28 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-08-14 10:42:53 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-14 10:42:53 - Started 4460
+2024-08-16 11:56:59 - Stopping analysesapp.exe
+2024-08-16 11:56:59 - ProcessKill 4460
+2024-08-16 11:56:59 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-08-17 08:31:39 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-17 08:31:39 - Started 3764
+2024-08-18 10:16:25 - Stopping analysesapp.exe
+2024-08-18 10:16:25 - ProcessKill 3764
+2024-08-18 10:16:25 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-08-18 10:16:48 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-18 10:16:48 - Started 4380
+2024-08-25 12:31:42 - Stopping analysesapp.exe
+2024-08-25 12:31:42 - ProcessKill 4380
+2024-08-25 12:31:42 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-08-25 12:32:10 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-08-25 12:32:10 - Started 4288
+2024-09-10 08:57:46 - Stopping analysesapp.exe
+2024-09-10 08:57:46 - ProcessKill 4288
+2024-09-10 08:57:46 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-09-10 08:58:10 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-09-10 08:58:10 - Started 4056
+2024-09-10 10:46:55 - Stopping analysesapp.exe
+2024-09-10 10:46:55 - ProcessKill 4056
+2024-09-10 10:46:55 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-09-10 10:47:14 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-09-10 10:47:14 - Started 4032
+2024-09-10 10:48:55 - Stopping analysesapp.exe
+2024-09-10 10:48:55 - ProcessKill 4032
+2024-09-10 10:48:56 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-09-10 10:58:50 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-09-10 10:58:50 - Started 2504
+2024-09-10 14:02:59 - Stopping analysesapp.exe
+2024-09-10 14:02:59 - ProcessKill 2504
+2024-09-10 14:02:59 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-09-10 14:03:24 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-09-10 14:03:24 - Started 4240
+2024-09-11 17:44:55 - Stopping analysesapp.exe
+2024-09-11 17:44:55 - ProcessKill 4240
+2024-09-11 17:44:55 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-09-11 17:45:21 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-09-11 17:45:21 - Started 3804
+2024-09-14 11:54:30 - Stopping analysesapp.exe
+2024-09-14 11:54:30 - ProcessKill 3804
+2024-09-14 11:54:30 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-09-14 11:54:50 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-09-14 11:54:50 - Started 4032
+2024-09-14 12:21:32 - Stopping analysesapp.exe
+2024-09-14 12:21:32 - ProcessKill 4032
+2024-09-14 12:21:33 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-09-14 12:21:53 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-09-14 12:21:53 - Started 4148
+2024-09-14 14:17:52 - Stopping analysesapp.exe
+2024-09-14 14:17:52 - ProcessKill 4148
+2024-09-14 14:17:52 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-09-14 14:18:11 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-09-14 14:18:11 - Started 3956
+2024-09-18 16:41:54 - Stopping analysesapp.exe
+2024-09-18 16:41:54 - ProcessKill 3956
+2024-09-18 16:41:54 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-09-18 16:42:17 - Starting C:\Program Files\nodejs\node.exe  --harmony d:\analyses\node_modules\node-windows\lib\wrapper.js --file D:\analyses\server.js --scriptoptions= --log "Analyses APP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-09-18 16:42:17 - Started 3988
